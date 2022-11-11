@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
       stepsContainer.innerHTML += `
       <!-- item START -->
-      <button id="${idx}" class="step flex flex-col justify-center items-center">
+      <button id="${idx}" class="step flex flex-col justify-center items-center px-10 bg-black py-2 ">
         <h4 class="text-lg font-bold ${
           isSelected ? "text-yellow-500" : "text-white"
         }">${step}</h4>
